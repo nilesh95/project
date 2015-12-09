@@ -1,5 +1,5 @@
 <?php
-$er=mysqli_connect("localhost","root","","form_db");
+$er=mysqli_connect('mysql.hostinger.in','u760524697_event','webapp2015','u760524697_web');
              
 if(isset($_GET['email']) && !empty($_GET['email']) AND isset($_GET['hash']) && !empty($_GET['hash'])){
     // Verify data

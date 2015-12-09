@@ -1,6 +1,6 @@
 <?php
 
-$er=mysqli_connect("localhost","root","","form_db");
+$er=mysqli_connect('mysql.hostinger.in','u760524697_event','webapp2015','u760524697_web');
 if(isset($_POST['submit']))
 {
 $name=$_POST['name'];
